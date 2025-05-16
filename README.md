@@ -1,6 +1,12 @@
-# React + Vite
+# Myprtfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website built with React.js to showcase my skills, projects, and experience as a web developer. It features a clean, responsive design, smooth navigation, and interactive elements. The site includes sections such as About Me, Projects, Skills, and Contact, all built using modern React components and styling tools like CSS Modules or Tailwind CSS.
+
+---
+
+## React + Vite Template Info
+
+This project uses Vite to provide a minimal setup to get React working with HMR and ESLint rules.
 
 Currently, two official plugins are available:
 
@@ -9,4 +15,4 @@ Currently, two official plugins are available:
 
 ## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+For production applications, it is recommended to use TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
