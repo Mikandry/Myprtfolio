@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.sticky-header {
+    position: sticky;
+    top: 0; /* Reste en haut de la page */
+    z-index: 1000; /* Assure-toi que le header est au-dessus du contenu */
+    background-color: black; /* Rendre le fond opaque pour qu'il soit visible */
+}
+
+/* h1{
+    color: blueviolet;
+} */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-variant-numeric: tabular-nums;
+}
+
+    
