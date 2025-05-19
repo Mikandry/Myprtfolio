@@ -51,6 +51,12 @@ const Projects = () => {
       description: 'This is a platform for booking doctor appointments online, allowing patients to check availability and schedule their visits accordingly.',
       tags: ['Laravel', 'MySQL', 'Tailwind CSS']
     },
+    {
+      title: 'Ecommerce (LARAVEL 12)',
+      image: '/images/ecommerce.png',
+      description: 'This is a platform where we can buy everything available there, precisly I built it for Malagasy production, where tourist and foreigner can check products from Madagascar as a souvenir or for food .',
+      tags: ['Laravel', 'MySQL', 'Tailwind CSS']
+    },
   ];
 
   const cardVariants = {

@@ -63,7 +63,7 @@ function Home() {
   };
 
   return (
-    <div className="relative w-full min-h-screen bg-black text-white">
+    <div className="relative w-full min-h-screen bg-black text-white py-20">
       {/* Floating Navigation */}
       <motion.div 
         className="fixed right-8 top-1/2 transform -translate-y-1/2 z-50 flex flex-col gap-4"
@@ -113,13 +113,13 @@ function Home() {
           </motion.div>
 
           {/* Main Content */}
-          <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start gap-8 z-10">
+          <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start gap-4 z-10">
             <motion.div variants={itemVariants} className="w-full">
               <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#2F4F4F] to-[#2A8000]"> {/* cello to japanese laurel */}
                 Hi, I'm Andry
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-[#2A8000]"> {/* japanese laurel */}
-                Back End Developer
+                Back End Developer, junior Front End
               </h2>
               <p className="text-lg mb-8 text-gray-300 max-w-lg">
                 I build digital experiences that are fast, accessible, and visually appealing.
