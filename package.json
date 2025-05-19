@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist -r https://github.com/mikandry/Myprtfolio.git"
+
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.17",
